@@ -1,0 +1,52 @@
+.ldiv{
+    width: 200px;
+    height: 238px;
+    border:2px solid rgb(3, 161, 108);
+    box-shadow: 1px 1px 3px 3px aqua;
+    margin-top: 10px;
+    grid-column: span 1;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 70%;
+}
+ h5{
+    text-align: center;
+}
+.image{
+    border:2px solid aqua;
+    box-shadow:  2px 1px aqua;
+    width: 185px;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+.image img{
+    width: 140px;
+}
+.img1 h3{
+    background-color: red;
+    width: max-content;
+    position: relative;
+    left: 70%;
+    color: white;
+    border-radius: 7px;
+    font-size: 16px;
+    
+
+}
+.comments{
+    display: flex;
+}
+ p{
+    border:1px solid aqua;
+    box-shadow:  2px 1px aqua;
+    border-radius: 7px;
+    width: max-content;
+    height: 60px;
+}
+input{
+    margin-top: 10px;
+    width: 30px;
+}
